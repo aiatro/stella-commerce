@@ -13,4 +13,8 @@
     <WarningLevel>7</WarningLevel>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="web\resource\" />
+  </ItemGroup>
+
 </Project>
