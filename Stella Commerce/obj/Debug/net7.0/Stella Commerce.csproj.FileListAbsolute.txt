@@ -1,0 +1,29 @@
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\bin\Debug\net7.0\appsettings.json
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\bin\Debug\net7.0\Stella Commerce.staticwebassets.runtime.json
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\bin\Debug\net7.0\Stella Commerce.exe
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\bin\Debug\net7.0\Stella Commerce.deps.json
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\bin\Debug\net7.0\Stella Commerce.runtimeconfig.json
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\bin\Debug\net7.0\Stella Commerce.dll
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\bin\Debug\net7.0\Stella Commerce.pdb
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\Stella Commerce.csproj.AssemblyReference.cache
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\Stella Commerce.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\Stella Commerce.AssemblyInfoInputs.cache
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\Stella Commerce.AssemblyInfo.cs
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\Stella Commerce.csproj.CoreCompileInputs.cache
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\Stella Commerce.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\Stella Commerce.RazorAssemblyInfo.cache
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\Stella Commerce.RazorAssemblyInfo.cs
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\staticwebassets\msbuild.Stella Commerce.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\staticwebassets\msbuild.build.Stella Commerce.props
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Stella Commerce.props
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Stella Commerce.props
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\scopedcss\bundle\Stella Commerce.styles.css
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\Stella Commerce.dll
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\refint\Stella Commerce.dll
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\Stella Commerce.pdb
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\Stella Commerce.genruntimeconfig.cache
+C:\Users\antho\source\repos\stella-commerce\Stella Commerce\obj\Debug\net7.0\ref\Stella Commerce.dll
