@@ -4,22 +4,22 @@ namespace Stella_Commerce.web.resource
 {
     public class CardPayment
     {
-        public string Id { get; set; }
-        public string PaymentType { get; set; }
-        public string PaymentHandleToken { get; set; }
-        public string MerchantRefNum { get; set; }
-        public string CurrencyCode { get; set; }
-        public bool SettleWithAuth { get; set; }
-        public DateTime TxnTime { get; set; }
-        public BillingDetails BillingDetails { get; set; }
-        public string CustomerIp { get; set; }
-        public string Status { get; set; }
-        public int Amount { get; set; }
-        public bool PreAuth { get; set; }
-        public string Description { get; set; }
-        public int AvailableToSettle { get; set; }
-        public GatewayResponse GatewayResponse{get;set;}
-        public MerchantDescriptor MerchantDescriptor{get;set;}
-        public Card Card{get; set;} 
-}
+        private string Id { get; set; }
+        private string PaymentType { get; set; }
+        private string PaymentHandleToken { get; set; }
+        private string MerchantRefNum { get; set; }
+        private string CurrencyCode { get; set; }
+        private bool SettleWithAuth { get; set; }
+        private DateTime TxnTime { get; set; }
+        private BillingDetails BillingDetails { get; set; }
+        private string CustomerIp { get; set; }
+        private string Status { get; set; }
+        private int Amount { get; set; }
+        private bool PreAuth { get; set; }
+        private string Description { get; set; }
+        private int AvailableToSettle { get; set; }
+        private GatewayResponse GatewayResponse{get;set;}
+        private MerchantDescriptor MerchantDescriptor{get;set;}
+        private Card Card{get; set;} 
+    }
 }

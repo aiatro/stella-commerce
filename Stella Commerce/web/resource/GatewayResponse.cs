@@ -2,6 +2,6 @@
 {
     public class GatewayResponse
     {
-        public string Processor { get; set; }
+        private string Processor { get; set; }
     }
 }

@@ -2,7 +2,7 @@
 {
     public class CardExpiry
     {
-        public string Month { get; set; }
-        public string Year { get; set; }
+        private string Month { get; set; }
+        private string Year { get; set; }
     }
 }

@@ -19,6 +19,7 @@ namespace Stella_Commerce.Pages
 
         public void OnGet()
         {
+            
         }
     }
 }

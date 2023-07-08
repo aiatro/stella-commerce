@@ -2,7 +2,7 @@
 {
     public class Link
     {
-        public string Rel { get; set; }
-        public string Href { get; set; }
+        private string Rel { get; set; }
+        private string Href { get; set; }
     }
 }
