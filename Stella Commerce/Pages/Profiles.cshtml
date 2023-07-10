@@ -5,6 +5,7 @@
 }
 <h1>@ViewData["Title"]</h1>
 
+
 <div style="float: left;">
     <h2>All Profiles</h2>
     
@@ -28,55 +29,79 @@
         <div class="form-row">
             <div class="col">
                 <label asp-for="PaymentHandle.Profile.FirstName">First Name</label>
-                <input class="form-control" asp-for="PaymentHandle.Profile.FirstName" type="text"/>
+                <input class="form-control" placeholder="First Name" asp-for="PaymentHandle.Profile.FirstName" type="text" />
             </div>
             <div class="col">
                 <label asp-for="PaymentHandle.Profile.LastName">Last Name</label>
-                <input class="form-control" asp-for="PaymentHandle.Profile.LastName" type="text" />
+                <input class="form-control" placeholder="Last Name" asp-for="PaymentHandle.Profile.LastName" type="text" />
             </div>
         </div>
         <div class="form-row">
             <div class="col">
                 <label asp-for="PaymentHandle.Profile.Email">Email Address</label>
-                <input class="form-control" asp-for="PaymentHandle.Profile.Email" type="email" />
+                <input class="form-control" placeholder="Email Address" asp-for="PaymentHandle.Profile.Email" type="email" />
             </div>
             <div class="col">
                 <label asp-for="PaymentHandle.Profile.Phone">Phone Number</label>
-                <input class="form-control" asp-for="PaymentHandle.Profile.Phone" type="tel" />
+                <input class="form-control" placeholder="Phone Number" asp-for="PaymentHandle.Profile.Phone" type="tel" />
             </div>
         </div>
 
         <div class="form-row">
             <div class="col">
                 <label asp-for="PaymentHandle.BillingDetails.Street">Street Address</label>
-                <input class="form-control" asp-for="PaymentHandle.BillingDetails.Street" type="text" />
+                <input class="form-control" placeholder="Street Address" asp-for="PaymentHandle.BillingDetails.Street" type="text" />
             </div>
             <div class="col">
                 <label asp-for="PaymentHandle.BillingDetails.Street2">Address Line 2</label>
-                <input class="form-control" asp-for="PaymentHandle.BillingDetails.Street2" type="text" />
+                <input class="form-control" placeholder="Address Line 2" asp-for="PaymentHandle.BillingDetails.Street2" type="text" />
             </div>
         </div>
         
-        <label asp-for="PaymentHandle.BillingDetails.City"></label>
-        <input class="form-control" asp-for="PaymentHandle.BillingDetails.City" type="text" />
+        <label asp-for="PaymentHandle.BillingDetails.City">City</label>
+        <input class="form-control" placeholder="City" asp-for="PaymentHandle.BillingDetails.City" type="text" />
         
-        <label asp-for="PaymentHandle.BillingDetails.Zip"></label>
-        <input class="form-control" asp-for="PaymentHandle.BillingDetails.Zip" type="text" />
-        
-        <label asp-for="PaymentHandle.BillingDetails.Country"></label>
-        <select class="form-control" asp-for="PaymentHandle.BillingDetails.Country">
-            <option value="CA">Canada</option>
-            <option value="US">United States of America</option>
-            <option value="GB">United Kingdom of Great Britain and Northern Ireland</option>
-            <option value="IT">Italy</option>
-        </select>
-
+        <div class="form-row">
+            <div class="col">
+            <label asp-for="PaymentHandle.BillingDetails.Country">Country</label>
+            <select class="form-control" asp-for="PaymentHandle.BillingDetails.Country">
+                <option value="CA">Canada</option>
+                <option value="US">United States of America</option>
+                <option value="GB">United Kingdom of Great Britain and Northern Ireland</option>
+                <option value="IT">Italy</option>
+            </select>
+            </div>
+            <div class="col">
+                <label asp-for="PaymentHandle.BillingDetails.Zip">Postal / ZIP Code</label>
+                <input class="form-control" placeholder="Postal / ZIP Code" asp-for="PaymentHandle.BillingDetails.Zip" type="text" />
+            </div>
+        </div>
         <label asp-for="PaymentHandle.MerchantDescriptor.DynamicDescriptor">Dynamic Descriptor</label>
-        <input class="form-control" asp-for="PaymentHandle.MerchantDescriptor.DynamicDescriptor" type="text" />
+        <input class="form-control" placeholder="Dynamic Descriptor" asp-for="PaymentHandle.MerchantDescriptor.DynamicDescriptor" type="text" />
 
         <label asp-for="PaymentHandle.MerchantDescriptor.DynamicDescriptor">Merchant Descriptor Phone Number</label>
-        <input class="form-control" asp-for="PaymentHandle.MerchantDescriptor.DynamicDescriptor" type="text" />
+        <input class="form-control" placeholder="Merchant Descriptor Phone Number" asp-for="PaymentHandle.MerchantDescriptor.DynamicDescriptor" type="text" />
 
-        <button id="save" type="submit" class="btn btn-primary mb-2">Save</button>
+        <div class="form-row">
+        <div class="col">
+                <label asp-for="PaymentHandle.Card.CardNum">Card Number</label>
+                <input class="form-control" placeholder="Card Number" asp-for="PaymentHandle.Card.CardNum" type="text" />
+
+        </div>
+        <div class="col">
+                <label asp-for="PaymentHandle.Card.HolderName">Cardholder Name</label>
+                <input class="form-control" placeholder="Cardholder Name" asp-for="PaymentHandle.Card.HolderName" type="text" />
+
+            </div>
+            <div class="col">
+                <label asp-for="PaymentHandle.Card.CardExpiry.Month">Expiry Month</label>
+                <input class="form-control" asp-for="PaymentHandle.Card.CardExpiry.Month" type="number" size="2" placeholder="MM"/>
+            </div>
+            <div class="col">
+                <label asp-for="PaymentHandle.Card.CardExpiry.Year">Expiry Year</label>
+                <input class="form-control" asp-for="PaymentHandle.Card.CardExpiry.Year" type="number" size="4" placeholder="YYYY"/>
+            </div>
+        </div>
+        <button id="save" type="submit" style="float: right; margin-top: 5px;" class="btn btn-primary mb-2">Save</button>
     </form>
 </div>

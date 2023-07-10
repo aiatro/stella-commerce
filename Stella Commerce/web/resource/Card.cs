@@ -2,6 +2,7 @@
 {
     public class Card
     {
+        public string CardNum { get; set; }
         public CardExpiry CardExpiry { get; set; }
         public string HolderName { get; set; }
         public string CardType { get; set; }

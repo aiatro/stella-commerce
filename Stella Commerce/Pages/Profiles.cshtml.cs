@@ -26,7 +26,7 @@ namespace Stella_Commerce.Pages
 
         public void OnPost()
         {
-            Profile profileModel = new();
+            ProfileService.CreateProfileFromPaymentHandle(PaymentHandle);
         }
     }
 }
