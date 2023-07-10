@@ -10,4 +10,5 @@ public class Profile
     public string LastName { get; set; }
     public string Email { get; set; }
     public string PaymentToken { get; set; }
+    public string MerchantRefNum { get; set; }
 }

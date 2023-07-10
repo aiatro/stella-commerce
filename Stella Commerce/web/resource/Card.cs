@@ -2,11 +2,11 @@
 {
     public class Card
     {
-        private CardExpiry CardExpiry { get; set; }
-        private string HolderName { get; set; }
-        private string CardType { get; set; }
-        private string CardBin { get; set; }
-        private string LastDigits { get; set; }
-        private string CardCategory { get; set; }
+        public CardExpiry CardExpiry { get; set; }
+        public string HolderName { get; set; }
+        public string CardType { get; set; }
+        public string CardBin { get; set; }
+        public string LastDigits { get; set; }
+        public string CardCategory { get; set; }
     }
 }

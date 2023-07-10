@@ -2,7 +2,7 @@
 {
     public class MerchantDescriptor
     {
-        private string DynamicDescriptor { get; set; }
-        private string Phone { get; set; }
+        public string DynamicDescriptor { get; set; }
+        public string Phone { get; set; }
     }
 }

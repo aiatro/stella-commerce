@@ -5,10 +5,10 @@ namespace Stella_Commerce
 {
     public class ProfileContext : DbContext
     {
-        private DbSet<Profile> Profiles { get; set; }
+        public DbSet<Profile> Profiles { get; set; }
         private string DatabasePath { get; }
 
-        public ProfileContext()
+        public ProfileContext(DbContextOptions<ProfileContext> dbContextOptions) : base(dbContextOptions)
         {
             DatabasePath = "./profiles.db";
         }
